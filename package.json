@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/santimirandarp/micro/issues"
   },
-  "homepage": "https://github.com/santimirandarp/micro#readme"
+  "homepage": "https://github.com/santimirandarp/micro#readme",
+  "dependencies": {
+    "unique-random-array": "3.0.0"
+  },
+   "type":"module"
 }
