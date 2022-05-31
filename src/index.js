@@ -1,3 +1,5 @@
+#!/bin/env node
+
 import chalk from "chalk";
 import data from "./quotes.js";
 
