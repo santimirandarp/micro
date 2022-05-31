@@ -1,0 +1,23 @@
+{
+  "name": "micro",
+  "version": "1.0.0",
+  "description": "A package to learn publishing packages and other related stuff",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santimirandarp/micro.git"
+  },
+  "keywords": [
+    "publish",
+    "learn"
+  ],
+  "author": "Santiago Miranda <misterybodon@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santimirandarp/micro/issues"
+  },
+  "homepage": "https://github.com/santimirandarp/micro#readme"
+}
