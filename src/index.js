@@ -10,8 +10,8 @@ if(process.argv.slice(2,).indexOf("full")!==-1){
   const date = (new Date()).toDateString()
   const user = process.env.USERNAME
 
-  if(user) console.log("\n "+ chalk.bold(user) + " | "+ date + "\n")
-  else console.log("\n "+date + "\n")
+  if(user) console.log("\n "+ chalk.bold(user) + " | "+ date )
+  else console.log("\n "+date)
 }
 
-console.log(" "+chalk.italic(quote)+"\n "+chalk.bold.white.bgMagenta(author)+"\n")
+console.log("\n "+chalk.italic(quote)+"\n "+chalk.bold.white.bgMagenta(author)+"\n")
