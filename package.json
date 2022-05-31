@@ -1,8 +1,11 @@
 {
   "name": "quotes-elsanti",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Get your random quote right there in the terminal.",
   "main": "src/index.js",
+  "bin": {
+    "quotes-elsanti": "./src/quotes-elsanti.js"
+  },
   "scripts": {
     "prepush": "npx eslint --fix && npx prettier src/index.js --write",
     "push": "git push"
