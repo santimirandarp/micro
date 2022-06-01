@@ -36,6 +36,6 @@
     "eslint": "8.16.0",
     "mocha": "10.0.0",
     "prettier": "2.6.2",
-    "semantic-release": "19.0.2"
+    "semantic-release": "^19.0.2"
   }
 }
