@@ -1,18 +1,20 @@
 {
   "name": "quotes-elsanti",
-  "version": "1.6.0",
+  "version": "0.0.0-development",
   "description": "Get your random quote right there in the terminal.",
   "main": "src/index.js",
   "bin": {
     "qes": "./src/index.js"
   },
   "scripts": {
+    "test": "mocha ./src/tests/index.test.js",
     "prepush": "npx eslint --fix && npx prettier src/index.js --write",
-    "push": "git push"
+    "push": "git push",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santimirandarp/micro.git"
+    "url": "https://github.com/santimirandarp/micro.git"
   },
   "keywords": [
     "publish",
@@ -25,11 +27,15 @@
   },
   "homepage": "https://github.com/santimirandarp/micro#readme",
   "dependencies": {
-    "chalk": "5.0.1"
+    "chalk": "5.0.1",
+    "semantic-release-cli": "5.4.4"
   },
   "type": "module",
   "devDependencies": {
+    "chai": "4.3.6",
     "eslint": "8.16.0",
-    "prettier": "2.6.2"
+    "mocha": "10.0.0",
+    "prettier": "2.6.2",
+    "semantic-release": "19.0.2"
   }
 }
