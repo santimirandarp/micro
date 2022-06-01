@@ -9,8 +9,7 @@
   "scripts": {
     "test": "mocha ./src/tests/index.test.js",
     "prepush": "npx eslint --fix && npx prettier src/index.js --write",
-    "push": "git push",
-    "semantic-release": "semantic-release"
+    "push": "git push"
   },
   "repository": {
     "type": "git",
@@ -27,8 +26,7 @@
   },
   "homepage": "https://github.com/santimirandarp/micro#readme",
   "dependencies": {
-    "chalk": "5.0.1",
-    "semantic-release-cli": "5.4.4"
+    "chalk": "5.0.1"
   },
   "type": "module",
   "devDependencies": {
