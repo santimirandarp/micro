@@ -13,7 +13,7 @@ The content is originally found [here](https://gist.github.com/signed0/d70780518
 //Install
 npm i quotes-elsanti -g
 
-//or
+// and just run
 qes
 ```
 
