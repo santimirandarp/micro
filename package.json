@@ -4,6 +4,7 @@
   "description": "Get your random quote right there in the terminal.",
   "main": "src/index.js",
   "bin": {
+    "quotes-elsanti": "./bin/index.js",
     "qes": "./bin/index.js"
   },
   "scripts": {

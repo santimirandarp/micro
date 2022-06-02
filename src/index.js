@@ -1,5 +1,3 @@
-#!/bin/env node
-
 import chalk from "chalk";
 import data from "./quotes.js";
 
@@ -24,4 +22,4 @@ export function format(quote,author){
   return result
 }
 
-console.log(format(quote,author))
+export default format(quote,author)
