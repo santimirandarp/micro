@@ -14,16 +14,16 @@ The content is originally found [here](https://gist.github.com/signed0/d70780518
 npm i quotes-elsanti -g
 
 // and just run
-qes
+quotes-elsanti
 ```
 
 
 Or locally `npm i quotes-elsanti` and either:
 * add to the path variable
-* or execute it as `npx qes` to run a local version.
-* or execute manually `./path/to/quotes-elsanti/src/index.js`.
+* or execute it as `npx quotes-elsanti` to run a local version.
+* or execute manually `./path/to/quotes-elsanti/bin/index.js`.
 
-Executing with the word full as `qes full` gives also the date. Otherwise just quote and author.
+Executing with the word full as `quotes-elsanti full` gives also the date. Otherwise just quote and author.
 
 <!--
 ## Learn by doing
