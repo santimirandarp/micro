@@ -25,6 +25,18 @@ Or locally `npm i quotes-elsanti` and either:
 
 Executing with the word full as `quotes-elsanti full` gives also the date. Otherwise just quote and author.
 
+## Pipe
+
+You can pipe the output to, for example, [cowsay](https://www.npmjs.com/package/cowsay):
+```
+npx quotes-elsanti full | npx cowsay -W 50 -r -g
+```
+
+And get:
+
+
+![](./scs2.png)
+
 <!--
 ## Learn by doing
 
